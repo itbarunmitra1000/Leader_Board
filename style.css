@@ -345,7 +345,7 @@ hr{
         font-size: 12px;
     }
     .feedback_icon p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .fa-star.filled {
         font-size: 12px;
@@ -358,3 +358,15 @@ hr{
 
  /* ----------------------------------------------------   End of mobile version response ------------------------ */
 
+
+ @media only screen and (min-width:688px) and (max-width:992px) {
+    .Navbar{
+        justify-content: space-around;
+    }
+    .course_container{
+         width: 100%;
+     }
+     .feedback_icon p{
+        font-size: 12px;
+    }
+ }
