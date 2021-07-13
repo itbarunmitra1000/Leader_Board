@@ -240,8 +240,10 @@ hr{
                                                  ---media queary ---------
 ------------------------------------------------------------------------------------------ */
 
-/*---------------------------- header part start ---------------------------- */
+                                /* For Mobile  */
 
+/*---------------------------- header part start ---------------------------- */
+           
 
 @media only screen and (max-width:688px) {
     .header {
@@ -310,6 +312,46 @@ hr{
 .blog_details p a {
      font-size: 10px;
     }
+
+    
+    /* ------------------------------------end blog part ----------------------------------------  */
+
+
+/* -------------------------------------start latest courses --------------------------------  */
+    .course_container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .latest_courses {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .course{
+        margin-bottom: 20px;
+    }
+    .course_img img {
+        width: 150px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .course h3 {
+        font-size: 12px;
+    }
+    .course a {
+        font-size: 10px;
+    }
+    .feedback_icon p{
+        font-size: 10px;
+    }
+    .fa-star.filled {
+        font-size: 10px;
+    }
+    .fa-star.empty {
+        font-size: 10px;
+    }
 }
 
-/* ------------------------------------end blog part ----------------------------------------  */
+
+ /* ----------------------------------------------------   End of mobile version response ------------------------ */
+
